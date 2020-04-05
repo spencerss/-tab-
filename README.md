@@ -1,6 +1,9 @@
 # -tab-
 这是一个小程序tab切换组件
 
+预览效果：
+![image](https://github.com/spencerss/-tab-/blob/master/f61f82e6e193e313b2a35bf5db6e26ea.gif.gif)
+
 使用方法：
 ### 1. 在你要引入的页面index.json引入组件：
  ~~~
