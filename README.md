@@ -1,5 +1,5 @@
 # -tab-
-这是一个小程序tab切换组件，动态加载效果，只需在数组里面定义数据，便可动态加载tab标题
+这是一个小程序tab切换组件，动态加载效果，在数组里面定义数据，便可动态加载tab标题
 
 预览效果：
 ![image](https://github.com/spencerss/-tab-/blob/master/f61f82e6e193e313b2a35bf5db6e26ea.gif)
