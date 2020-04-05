@@ -1,0 +1,30 @@
+/* components/tab/tab.wxss */
+.tab-container {
+  border-bottom: 3rpx solid #f2f2f2;
+}
+.tab-container .tab-main {
+  height: 90rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tab-container .tab-main view {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-container .tab-main .fontColor {
+  color: #eb809d;
+}
+
+.horizontal-line {
+  height: 7rpx;
+  background-color: #ea7a99;
+  width: 150rpx;
+  transition: transform .3s cubic-bezier(.645,.045,.355,1);
+}
+

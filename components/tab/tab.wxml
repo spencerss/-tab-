@@ -1,0 +1,18 @@
+<view class="tab-container">
+  <view class="tab-main">
+      <view wx:for="{{tabContent}}" wx:key="index"
+            bindtap="clickTab" data-id="{{index}}" 
+            class="{{idx==index?'fontColor':''}} bb">
+            <text class="getTextWidth" data-id="{{index}}">{{item.title}}</text>
+      </view>
+  </view>
+  <view class="horizontal-line" style="transform: translateX({{nextMoveDistance}}px);width:{{lineWidth}}px"></view>
+</view>
+
+<swiper bindchange="swiperIndexchange" 
+        current="{{currentIndex}}" 
+        style="height: {{swiperHeight}}px">
+        <swiper-item wx:for="{{tabContent}}" wx:key="index">
+          <slot name="{{index}}"> </slot>
+        </swiper-item>
+</swiper>
